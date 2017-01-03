@@ -1,0 +1,10 @@
+<!--index.wxml-->
+<view class="container">
+  
+  <view class="inputView">
+  <input class = "input" type="text" placeholder="请输入要翻译的文本" placeholder-style="color:#CCCCCC" bindinput="listenerInput"  />
+  </view>
+
+  <button style="margin-left: 15rpx; margin-right: 15rpx; margin-top: 50rpx; border-radius: 40rpx" type="primary" bindtap="listenerTrans">翻译</button>
+<text >{{translation}}</text>
+</view>
